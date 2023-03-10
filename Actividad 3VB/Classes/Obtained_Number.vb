@@ -9,14 +9,14 @@
     End Sub
 
     Public Overridable Sub Addition()
-        Console.WriteLine("")
+        Console.Write("The addition of")
     End Sub
 
     Public Overridable Sub Substraction()
-        Console.WriteLine("")
+        Console.WriteLine("The Substraction of")
     End Sub
 
     Public Overridable Sub Multiplication()
-        Console.WriteLine("")
+        Console.WriteLine("The Multiplication of")
     End Sub
 End Class

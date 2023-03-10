@@ -5,14 +5,17 @@
     End Sub
 
     Public Overrides Sub Addition()
-        Console.WriteLine("The addition of {0} + {1} is {2}", num1, num2, (num1 + num2))
+        MyBase.Addition()
+        Console.WriteLine(" {0} + {1} is {2}", num1, num2, (num1 + num2))
     End Sub
 
     Public Overrides Sub Multiplication()
-        Console.WriteLine("The Multiplication of {0} * {1} is {2}", num1, num2, (num1 * num2))
+        MyBase.Multiplication()
+        Console.WriteLine(" {0} * {1} is {2}", num1, num2, (num1 * num2))
     End Sub
 
     Public Overrides Sub Substraction()
-        Console.WriteLine("The Substraction of {0} - {1} is {2}", num1, num2, (num1 - num2))
+        MyBase.Substraction()
+        Console.WriteLine(" {0} - {1} is {2}", num1, num2, (num1 - num2))
     End Sub
 End Class
