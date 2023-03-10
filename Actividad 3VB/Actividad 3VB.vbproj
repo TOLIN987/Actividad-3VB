@@ -85,8 +85,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Obtained_Number.vb" />
-    <Compile Include="Operation.vb" />
+    <Compile Include="Classes\Obtained_Number.vb" />
+    <Compile Include="Classes\Operation.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
